@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Science+Gothic:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.12), transparent 60%),
+        radial-gradient(circle at 80% 100%, rgba(147, 51, 234, 0.16), transparent 55%),
+        linear-gradient(to right, #05010a, #130124, #05010a);
+    color: #f9fafb;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+ 
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem ;
+    margin-bottom: 2em;
+    align-items: center;
+    align-content: center;
+    font-family: "Press Start 2P", system-ui;
+}
+header h1 {
+  font-size: 2.2em;
+}
+.logosw {
+    width: 180px;
+}
+h1 {
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.menu-nav {
+    margin-left: auto;
+}
+
+.menu-table {
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.45);
+    border: 2px solid #ffe81f;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.menu-table tr td {
+    padding: 0;
+}
+
+.menu-item {
+    display: block;
+    padding: 0.8rem 1.4rem;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    color: #f9fafb;
+    border-right: 2px solid #ffe81f;
+    transition: 0.3s ease;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}
+
+.menu-item:hover {
+    background: #131212;
+    box-shadow: inset 0 0 12px rgba(255, 232, 31, 0.6);
+    color: #ffe81f;
+}
+
+.menu-item.active {
+    background: #1a1a1a;
+    color: #ffe81f;
+    box-shadow: inset 0 0 14px rgba(255, 232, 31, 0.7);
+}
+
+.gallery {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+figure {
+    text-align: center;
+
+}
+
+.gallery figure img {
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.lava img {
+    margin:30px;
+    border-radius: 5px;
+}
+
+.lightbox {
+    display: none;
+    
+}
+
+.lightbox:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);    
+}
+
+.lightbox img {
+    display: block;
+    margin: auto;
+    align-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.figlava {
+    font-family: "BBH Sans Bogle", sans-serif;
+    color: wheat;
+    font-size: 2em;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+body footer {
+    background-color: #111; 
+    color: #ccc;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    bottom: 100%;
+}
+footer li {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    display:inline;
+    justify-content: space-between;
+    padding: 1rem ;
+    align-items: center;
+    align-content: center;
+    font-family: "Press Start 2P", system-ui;
+}
+footer li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+}
+

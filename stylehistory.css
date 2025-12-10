@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.12), transparent 60%),
+        radial-gradient(circle at 80% 100%, rgba(147, 51, 234, 0.16), transparent 55%),
+        linear-gradient(to right, #05010a, #130124, #05010a);
+    color: #f9fafb;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+ 
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem ;
+    margin-bottom: 2em;
+    align-items: center;
+    align-content: center;
+    font-family: "Press Start 2P", system-ui;
+}
+header h1 {
+  font-size: 2.2em;
+}
+.logosw {
+    width: 180px;
+}
+h1 {
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.menu-nav {
+    margin-left: auto;
+}
+
+.menu-table {
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.45);
+    border: 2px solid #ffe81f;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.menu-table tr td {
+    padding: 0;
+}
+
+.menu-item {
+    display: block;
+    padding: 0.8rem 1.4rem;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    color: #f9fafb;
+    border-right: 2px solid #ffe81f;
+    transition: 0.3s ease;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}
+
+.menu-item:hover {
+    background: #131212;
+    box-shadow: inset 0 0 12px rgba(255, 232, 31, 0.6);
+    color: #ffe81f;
+}
+
+.menu-item.active {
+    background: #1a1a1a;
+    color: #ffe81f;
+    box-shadow: inset 0 0 14px rgba(255, 232, 31, 0.7);
+}
+
+.img1 {
+  float: inline-start;
+  width: 50%;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 18px;
+  border-radius: 4px;
+  padding-left: 9em;
+}
+
+h2 {
+  padding: 10px;
+  margin: 10px;
+  text-size-adjust: ;
+  text-align: center;
+  
+}
+.line1 {
+  margin: 10px;
+  text-align: justify;
+  word-spacing: 6px;
+  letter-spacing: 1px;
+  padding-left: 9em;
+  padding-right: 9em;
+}
+.line1 p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  text-indent: 50px;
+  color: whitesmoke;
+}
+
+.line2 {
+  margin: 10px;
+  margin-top: 20px;
+  word-spacing: 6px;
+  letter-spacing: 1px;
+  padding-left: 9em;
+  padding-right: 9em;
+  text-align: justify;
+  
+}
+.line2 p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  text-indent: 50px;
+  color: whitesmoke;
+
+}
+.aside1 {
+  width: 40%;
+  padding-left: 1rem;
+  margin: 25px 20em;
+  box-shadow: inset 5px 0 5px -5px #d7f1fc;
+  font-style: italic;
+  color: #d7f1fc;
+  position: relative;
+}
+.aside1:hover {
+  text-shadow:
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff,
+        0 0 80px #0ff;
+  transition: .5s ease-in-out;
+  transition-delay: 0.1s;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+.img2 {
+  float: inline-end;
+  width: 50%;
+  padding-top: 20px;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+  border-radius: 4px;
+  padding-right: 9em;
+}
+.aside2 {
+  width: 40%;
+  height: ;
+  padding-right: 1rem;
+  margin: 3em 4em;
+  margin-left: 50%;
+  font-style: italic;
+  color: #d7f1fc;
+  box-shadow: inset -5px 0 5px -4px #d7f1fc;
+  position: relative;
+}
+.aside2:hover {
+  text-shadow:  
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff,
+    0 0 80px #0ff;
+  transition: .5s ease-in-out;
+  transition-delay: 0.1s;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+footer {
+    background-color: #111; 
+    color: #ccc;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+footer li {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    display:inline;
+    justify-content: space-between;
+    padding: 1rem ;
+    align-items: center;
+    align-content: center;
+    font-family: "Press Start 2P", system-ui;
+}
+footer li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
